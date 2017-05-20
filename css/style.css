@@ -16,14 +16,21 @@ body {
     display: inline-block;
 }
 
+.navbar {
+    height: 100px;
+}
+
 .topnav {
+    height: 100%;
     width: 100%;
     background-color: #fff;
     display: inline-block;
-    margin: 0px 20px;
+    transition: all 0.4s ease;
+
 }
 
 .topnav a, li {
+    height: 100%;
     display: inline-block;
     color: #323232;
     padding: 15px 20px;
@@ -34,15 +41,11 @@ body {
 
 .topnav ul {
     float: right;
-    display: inline;
-
 }
 
 .topnav .logo {
     float: left;
-    display: inline;
     vertical-align: center;
-
 }
 
 .topnav ul a:hover {
@@ -62,6 +65,14 @@ body {
     max-width: 100%;
     max-height: 500px;
     background-size: contain;
+}
+
+.menu-fixed {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    max-width: 1200px;
+
 }
 
 .bg-gray-lighter {
