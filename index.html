@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Portfolio - Emanuel Damian Paz</title>
 
     <link rel="stylesheet" href="css/grid.css">
@@ -9,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/handlebars.js"></script>
 </head>
 <body>
 
-<header class="row navbar">
+<header id="home" class="row navbar">
     <div class=" row container">
         <nav class="topnav">
             <a class="logo" href="#home">
@@ -28,7 +30,7 @@
     </div>
 </header>
 
-<section class="background-image row">
+<section class="background-section no-margin image-01 row">
 
     <article class="col-3"></article>
 
@@ -41,50 +43,108 @@
 
 </section>
 
+<section id="about" class="background-section row">
 
-<section class="background-image row">
+    <article class="col-3">
 
-    <article class="col-3"></article>
+        <h4 class="font-black no-margin-bottom ">Portfolio - Emanuel Damian Paz</h4>
+        <h5 class="font-black  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
+            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
+            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
+            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
+            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
+            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
+            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
+            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
+
+    </article>
 
     <article class="col-9 ">
 
-        <h1 class="text-white no-margin-bottom ">Portfolio - Emanuel Damian Paz</h1>
-        <h2 class="text-white ">Pagina web </h2>
+        <h4 class="font-black no-margin-bottom ">Portfolio - Emanuel Damian Paz</h4>
+        <h5 class="font-black  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
+            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
+            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
+            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
+            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
+            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
+            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
+            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
 
     </article>
 
 </section>
 
-<section class="row bg-gray-lighter">
+<section id="portfolio" class="background-section row">
 
-    <article class="col-4">
-        Articulo 1
+    <article class="col-3">
+
+        <h4 class="font-black no-margin-bottom ">Portfolio - Emanuel Damian Paz</h4>
+        <h5 class="font-black  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
+            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
+            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
+            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
+            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
+            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
+            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
+            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
 
     </article>
-    <article class="col-4"> Articulo 2
+
+    <article class="col-9 ">
+
+        <h4 class="font-black no-margin-bottom ">Portfolio - Emanuel Damian Paz</h4>
+        <h5 class="font-black  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
+            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
+            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
+            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
+            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
+            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
+            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
+            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
 
     </article>
-    <article class="col-4">
-        Articulo 3
 
-    </article>
 </section>
 
+<section id="contact" class="background-section row">
 
-<section class="row">
+    <article class="col-3">
 
-    <article class="col-4">
-        Articulo 1
+        <h4 class="font-black no-margin-bottom ">Portfolio - Emanuel Damian Paz</h4>
+        <h5 class="font-black  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
+            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
+            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
+            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
+            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
+            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
+            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
+            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
 
     </article>
-    <article class="col-4"> Articulo 2
+
+    <article class="col-9 ">
+
+        <h4 class="font-black no-margin-bottom ">Portfolio - Emanuel Damian Paz</h4>
+        <h5 class="font-black  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
+            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
+            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
+            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
+            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
+            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
+            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
+            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
 
     </article>
-    <article class="col-4">
-        Articulo 3
 
-    </article>
 </section>
+
 
 <footer>Footer</footer>
 </body>

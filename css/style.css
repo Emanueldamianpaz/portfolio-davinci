@@ -1,6 +1,8 @@
 html {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    scroll-behavior: smooth;
+
 }
 
 h1 {
@@ -39,6 +41,10 @@ body {
     margin: 0px;
 }
 
+.font-black {
+    color: #323232;
+}
+
 .topnav ul {
     float: right;
 }
@@ -58,21 +64,29 @@ body {
     color: white;
 }
 
-.background-image {
-    background-image: url("../src/bg-01-1920x1000.jpg");
-    height: 600px;
-    width: auto;
-    max-width: 100%;
-    max-height: 500px;
-    background-size: contain;
-}
-
 .menu-fixed {
     z-index: 1000;
     position: fixed;
     top: 0;
     max-width: 1200px;
 
+}
+
+.background-section {
+    height: 600px;
+    width: auto;
+    max-width: 100%;
+    max-height: 600px;
+    padding-top: 100px;
+}
+
+.image-01 {
+    background-image: url("../src/bg-01-1920x1000.jpg");
+
+}
+
+.background-image-02 {
+    background-image: url("../src/bg-02-1920x1000.jpg");
 }
 
 .bg-gray-lighter {
@@ -90,3 +104,4 @@ body {
 .no-margin-bottom {
     margin-bottom: 0;
 }
+

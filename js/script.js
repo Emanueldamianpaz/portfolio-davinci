@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    // Menu scrolleable
+    // ---------------------------------------- Menu scrolleable
     var altura = $('.topnav').offset().top;
 
     $(window).on('scroll', function () {
@@ -11,6 +11,7 @@ $(document).ready(function () {
         }
     });
 
+    // ---------------------------------------- Cambiar de color
 
     $('#items a').click(function () {
         $('#items a').removeClass('active');
