@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+    // ---------------------------------------- Watching para cambiar section active
+    $(document).on("scroll", onScroll);
+
     // ---------------------------------------- Menu scrolleable
     var altura = $('.topnav').offset().top;
 
@@ -22,6 +25,7 @@ $(document).ready(function () {
     var height = movementStrength / $(window).height();
     var width = movementStrength / $(window).width();
 
+    // ---------------------------------------- Imagen se mueve
     $(".img-move").mousemove(function (e) {
         var pageX = e.pageX - ($(window).width() / 2);
         var pageY = e.pageY - ($(window).height() / 2);
@@ -30,8 +34,19 @@ $(document).ready(function () {
         $('.img-move').css("background-position", newvalueX + "px     " + newvalueY + "px");
     });
 
-    
+    // ---------------------------------------- Implementacion del change item navbar
+    function onScroll(event) {
+        var scrollPos = $(document).scrollTop();
+        $('#menu-navbar ul a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                $('#menu-navbar ul li a').removeClass("active");
+                currLink.addClass("active");
+            }
+            else {
+                currLink.removeClass("active");
+            }
+        });
+    }
 });
-
-
-
