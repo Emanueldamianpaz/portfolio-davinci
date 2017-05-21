@@ -80,17 +80,26 @@ body {
     padding-top: 100px;
 }
 
+.background-footer {
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    max-height: 600px;
+    padding: 5px;
+}
+
 .image-01 {
     background-image: url("../src/bg-01-1920x1000.jpg");
 
 }
 
-.background-image-02 {
-    background-image: url("../src/bg-02-1920x1000.jpg");
+.background-grey-light {
+    background: #f5f5f5;
 }
 
-.bg-gray-lighter {
-    background-color: #f5f5f5;
+.background-grey-dark {
+    background: #1b1b1b;
+    color: white;
 }
 
 .text-white {
