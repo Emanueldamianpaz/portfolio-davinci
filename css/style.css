@@ -239,6 +239,6 @@ p {
     font-size: 17px;
 }
 
-.fa .display-block {
-    display: block;
+#my-contact h1, h2, h3, h4, h5 {
+    text-align: center;
 }
