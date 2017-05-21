@@ -60,7 +60,7 @@ body {
     z-index: 1000;
     position: fixed;
     top: 0;
-    max-width: 1200px;
+    max-width: 1140px;
 
 }
 
@@ -83,6 +83,7 @@ body {
 .image-01 {
     background-image: url("../src/bg-01-1920x1000.jpg");
     color: #323232;
+    height: 400px;
 
 }
 
