@@ -83,11 +83,17 @@ p {
 }
 
 .background-footer {
-    height: 50px;
+    height: 80px;
     width: auto;
     max-width: 100%;
     max-height: 600px;
-    padding: 5px;
+    padding: 30px;
+
+}
+
+.background-footer a {
+    text-decoration: none;
+    color: white;
 }
 
 .image-resize-height {
