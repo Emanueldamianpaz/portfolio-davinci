@@ -40,7 +40,7 @@ p {
     padding: 15px 20px;
     text-decoration: none;
     font-size: 15px;
-    margin: 0px;
+    margin: 0;
 }
 
 .topnav ul {
@@ -71,7 +71,7 @@ p {
 }
 
 .banner-section {
-    margin: 40px 0px;
+    margin: 40px 0;
 }
 
 .background-section {
@@ -95,6 +95,11 @@ p {
     height: auto;
 }
 
+.image-resize-width {
+    width: auto;
+    height: 100%;
+}
+
 .image-01 {
     background-image: url("../src/bg-01-1920x1000.jpg");
     color: #323232;
@@ -113,6 +118,11 @@ p {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.portfolio-content {
+    max-height: 800px;
+    height: 800px;
 }
 
 .background-grey-light {
@@ -169,12 +179,20 @@ p {
 }
 
 .list-item-padding-light {
-    padding: 0px 10px;
+    padding: 0 10px;
     display: block;
     font-size: 16px;
 }
 
- .font-small {
+.padding-light {
+    padding: 10px;
+}
+
+.font-small {
     font-size: 12px;
     font-style: italic;
+}
+
+.item-center {
+    justify-content: center;
 }

@@ -35,7 +35,7 @@ $(document).ready(function () {
     });
 
     // ---------------------------------------- Implementacion del change item navbar
-    function onScroll(event) {
+    function onScroll() {
         var scrollPos = $(document).scrollTop();
         $('#menu-navbar ul a').each(function () {
             var currLink = $(this);
@@ -48,5 +48,17 @@ $(document).ready(function () {
                 currLink.removeClass("active");
             }
         });
+
+        /*
+         TODO
+         Hacer script para que aparezca boton y suba
+
+         if (scrollPos < 100) {
+         $('#btn-to-top').style.display = "block";
+         } else {
+         $('#btn-to-top').style.display = "none";
+         }*/
     }
+
+
 });

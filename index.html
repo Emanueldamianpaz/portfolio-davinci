@@ -29,6 +29,12 @@
             </ul>
         </nav>
     </div>
+
+
+    <!--TODO
+        Hacer FAB que permita volver al inicio
+    <button onclick="topFunction()" id="btn-to-top" class="navbar">asdasdasddTop</button>
+    -->
 </header>
 
 <!-- Section Home -->
@@ -120,35 +126,71 @@
 <!-- end About -->
 
 <!-- Section Portfolio -->
-<section id="portfolio" class="background-section image-02 row">
+<section id="portfolio" class="background-section portfolio-content image-02 row">
 
-    <article class="col-9">
+    <article class="col-12">
 
-        <h1 class="font-white no-margin-bottom">Portfolio </h1>
-        <h5 class="font-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
-            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
-            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
-            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
-            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
-            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
-            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
-            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
+        <div class="banner-section">
+            <h1 class="no-margin-bottom">Portfolio</h1>
+            <h4 class="no-margin">Un repaso de mis proyectos y logros...</h4>
+        </div>
+        <div class="col-12 padding-light item-center ">
 
-    </article>
+            <figure class="col-3 portfolio-item no-margin">
+                <a href="https://www.youtube.com/watch?v=8fR50J6vlpM">
+                    <img src="src/portfolio-01.png" class="image-resize-height" alt="Grabacion de cancion">
+                </a>
+                <figcaption class="font-white font-small">Grabación de cover con una amiga.</figcaption>
+            </figure>
+            <figure class="col-3 portfolio-item no-margin">
+                <a href="https://www.youtube.com/watch?v=9crrfzhJo7E">
+                    <img src="src/portfolio-02.png" class="image-resize-height" alt="Produccion de la grabacion">
+                </a>
+                <figcaption class="font-white font-small">Produccion de video y audio de la grabacion.</figcaption>
+            </figure>
+            <figure class="col-3 portfolio-item no-margin">
+                <a href="http://www.buswork.com.ar">
+                    <img src="src/portfolio-03.png" class="image-resize-height" alt="Pagina web casa repuestos">
+                </a>
+                <figcaption class="font-white font-small">Desarrollo de pagina web para casa de repuestos.</figcaption>
+            </figure>
+            <figure class="col-3 portfolio-item no-margin">
 
-    <article class="col-3">
+                <a href="http://www.atopems.com">
+                    <img src="src/portfolio-04.png" class="image-resize-height" alt="Pagina web distribuidora">
+                </a>
+                <figcaption class="font-white font-small">Desarrollo de pagina web para distribuidora de autopartes.
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-12 padding-light item-center ">
 
-        <h4 class="no-margin-bottom">Portfolio - Emanuel Damian Paz</h4>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat dui ut massa
-            gravida, eget laoreet nibh aliquet. In ullamcorper pretium lacus non volutpat. Quisque eget urna efficitur,
-            ornare massa ac, euismod nibh. Sed ut nunc ac augue dictum imperdiet a non felis. Nam ac eros sit amet ante
-            pretium tincidunt in id tellus. Integer egestas pulvinar augue, a lobortis ipsum cursus quis. Ut quis diam
-            vel mauris tempor vulputate et vel justo. Sed id ante tristique, commodo arcu nec, aliquet dui. Cras mi leo,
-            varius id molestie nec, tempus vel lacus. Pellentesque vulputate, odio a tempus feugiat, tellus mi laoreet
-            enim, in tempus lectus odio id arcu. Etiam dictum congue lacinia. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae; Phasellus at elementum felis, eu pulvinar eros. Nullam varius
-            magna quis porttitor tincidunt. Aliquam interdum neque ex, eu dictum ipsum pharetra a. </h5>
+            <figure class="col-3 portfolio-item no-margin">
+                <img src="src/portfolio-05.png" class="image-resize-height" alt="Plataforma Hackerrank">
+                <figcaption class="font-white font-small">Desarrollo de una plataforma para RRHH similar a hackerrank.
+                </figcaption>
+            </figure>
+            <figure class="col-3 portfolio-item no-margin">
+                <a href="https://drill.apache.org/">
+                    <img src="src/portfolio-06.png" class="image-resize-height" alt="Apache Drill">
+                </a>
+                <figcaption class="font-white font-small">Implementación de Apache Drill clusterizado.
+                </figcaption>
+            </figure>
+            <figure class="col-3 portfolio-item no-margin">
+                <a href="https://zeppelin.apache.org/">
+                    <img src="src/portfolio-07.png" class="image-resize-height" alt="Apache Zeppelin">
+                </a>
+                <figcaption class="font-white font-small">Implemetación de Apache Zeppelin conectado a Apache Drill.
+                </figcaption>
+            </figure>
+            <figure class="col-3 portfolio-item no-margin">
+                <a href="http://hadoop.apache.org/">
+                    <img src="src/portfolio-08.png" class="image-resize-height" alt="Apache Hadoop">
+                </a>
+                <figcaption class="font-white font-small">Implementacion de Hadoop Distribuited FileSystem</figcaption>
+            </figure>
+        </div>
 
     </article>
 
