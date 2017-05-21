@@ -9,12 +9,8 @@ h1 {
     font-size: 50px;
 }
 
-h3 {
-    color: #191919;
-}
-
 body {
-    width: 1200px;
+    width: 1140px;
     display: inline-block;
 }
 
@@ -39,10 +35,6 @@ body {
     text-decoration: none;
     font-size: 15px;
     margin: 0px;
-}
-
-.font-black {
-    color: #323232;
 }
 
 .topnav ul {
@@ -90,11 +82,19 @@ body {
 
 .image-01 {
     background-image: url("../src/bg-01-1920x1000.jpg");
+    color: #323232;
+
+}
+
+.image-02 {
+    background-image: url("../src/bg-02-1920x1000.jpg");
+    color: white;
 
 }
 
 .background-grey-light {
     background: #f5f5f5;
+    color: #323232;
 }
 
 .background-grey-dark {
@@ -102,7 +102,16 @@ body {
     color: white;
 }
 
-.text-white {
+.background-white-light-transparent {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 200px;
+}
+
+.font-black {
+    color: #323232;
+}
+
+.font-white {
     color: white;
 }
 
@@ -114,3 +123,12 @@ body {
     margin-bottom: 0;
 }
 
+.vertical-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
