@@ -1,23 +1,3 @@
-.row {
-    width: 100%;
-}
-
-.row:after {
-    clear: both;
-}
-
-.row [class^="col"] {
-    width: 100%;
-    display: block;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.row [class^="col"]:first-child {
-    margin-left: 0;
-}
 
 .row .col-1 {
     width: 6.34058%;
