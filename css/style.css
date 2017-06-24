@@ -21,6 +21,7 @@ p {
 .topnav {
     background-color: #fff;
     transition: all 0.4s ease;
+    text-decoration: none;
 
 }
 
