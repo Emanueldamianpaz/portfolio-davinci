@@ -1,32 +1,8 @@
-.portfolio-effect {
-    position: relative;
-    width: 300px;
-    height: 220px;
-    overflow: hidden;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.portfolio-effect figure {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    cursor: pointer;
-    margin-left: -50px
-}
-
-.portfolio-effect figure img {
-    display: block;
-    position: relative;
-    z-index: 10;
-    margin: -15px 0
-}
-
 .portfolio-effect figure figcaption {
     display: block;
     position: absolute;
     z-index: 5;
+    height: 220px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
@@ -52,8 +28,6 @@
 .portfolio-effect figure figcaption {
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     padding: 29px 44px;
     background-color: rgba(26, 76, 110, 0.5);
     text-align: center;
