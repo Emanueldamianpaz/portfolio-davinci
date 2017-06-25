@@ -40,7 +40,7 @@ $(document).ready(function () {
         $('#menu-navbar ul a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            if ((refElement.position().top) - 10 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
                 $('#menu-navbar ul li a').removeClass("active");
                 currLink.addClass("active");
             }

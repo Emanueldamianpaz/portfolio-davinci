@@ -62,11 +62,12 @@ p {
 }
 
 .banner-section {
-    margin: 95px 0;
+    margin: 25px 0;
 }
 
 .background-section {
     padding-top: 95px;
+    padding-bottom: 40px;
 }
 
 .background-footer {
@@ -111,11 +112,6 @@ p {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.portfolio-content {
-    max-height: 800px;
-    height: 800px;
 }
 
 .background-grey-light {
